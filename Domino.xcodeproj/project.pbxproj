@@ -7,70 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BC06CE2215B15A900B0F301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC06CE1215B15A900B0F301 /* AppDelegate.m */; };
-		2BC06CE4215B15A900B0F301 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC06CE3215B15A900B0F301 /* art.scnassets */; };
-		2BC06CE7215B15A900B0F301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC06CE6215B15A900B0F301 /* ViewController.m */; };
-		2BC06CEA215B15A900B0F301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC06CE8215B15A900B0F301 /* Main.storyboard */; };
-		2BC06CEC215B15AB00B0F301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC06CEB215B15AB00B0F301 /* Assets.xcassets */; };
-		2BC06CEF215B15AB00B0F301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC06CED215B15AB00B0F301 /* LaunchScreen.storyboard */; };
-		2BC06CF2215B15AB00B0F301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC06CF1215B15AB00B0F301 /* main.m */; };
-		2BC06CFC215B15AB00B0F301 /* DominoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC06CFB215B15AB00B0F301 /* DominoTests.m */; };
-		2BC06D07215B15AB00B0F301 /* DominoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC06D06215B15AB00B0F301 /* DominoUITests.m */; };
+		2B4551F4215B1B6300E0926B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4551F3215B1B6300E0926B /* AppDelegate.swift */; };
+		2B4551F6215B1B6300E0926B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4551F5215B1B6300E0926B /* art.scnassets */; };
+		2B4551F8215B1B6300E0926B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4551F7215B1B6300E0926B /* ViewController.swift */; };
+		2B4551FB215B1B6300E0926B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4551F9215B1B6300E0926B /* Main.storyboard */; };
+		2B4551FD215B1B6400E0926B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4551FC215B1B6400E0926B /* Assets.xcassets */; };
+		2B455200215B1B6400E0926B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4551FE215B1B6400E0926B /* LaunchScreen.storyboard */; };
+		2B45520B215B1B6400E0926B /* DominoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B45520A215B1B6400E0926B /* DominoTests.swift */; };
+		2B455216215B1B6400E0926B /* DominoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B455215215B1B6400E0926B /* DominoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BC06CF8215B15AB00B0F301 /* PBXContainerItemProxy */ = {
+		2B455207215B1B6400E0926B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BC06CD5215B15A900B0F301 /* Project object */;
+			containerPortal = 2B4551E8215B1B6300E0926B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BC06CDC215B15A900B0F301;
+			remoteGlobalIDString = 2B4551EF215B1B6300E0926B;
 			remoteInfo = Domino;
 		};
-		2BC06D03215B15AB00B0F301 /* PBXContainerItemProxy */ = {
+		2B455212215B1B6400E0926B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BC06CD5215B15A900B0F301 /* Project object */;
+			containerPortal = 2B4551E8215B1B6300E0926B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BC06CDC215B15A900B0F301;
+			remoteGlobalIDString = 2B4551EF215B1B6300E0926B;
 			remoteInfo = Domino;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BC06CDD215B15A900B0F301 /* Domino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domino.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BC06CE0215B15A900B0F301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2BC06CE1215B15A900B0F301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2BC06CE3215B15A900B0F301 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		2BC06CE5215B15A900B0F301 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2BC06CE6215B15A900B0F301 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2BC06CE9215B15A900B0F301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BC06CEB215B15AB00B0F301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BC06CEE215B15AB00B0F301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2BC06CF0215B15AB00B0F301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BC06CF1215B15AB00B0F301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BC06CF7215B15AB00B0F301 /* DominoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BC06CFB215B15AB00B0F301 /* DominoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DominoTests.m; sourceTree = "<group>"; };
-		2BC06CFD215B15AB00B0F301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BC06D02215B15AB00B0F301 /* DominoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BC06D06215B15AB00B0F301 /* DominoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DominoUITests.m; sourceTree = "<group>"; };
-		2BC06D08215B15AB00B0F301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4551F0215B1B6300E0926B /* Domino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4551F3215B1B6300E0926B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4551F5215B1B6300E0926B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2B4551F7215B1B6300E0926B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B4551FA215B1B6300E0926B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4551FC215B1B6400E0926B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4551FF215B1B6400E0926B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B455201215B1B6400E0926B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B455206215B1B6400E0926B /* DominoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B45520A215B1B6400E0926B /* DominoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoTests.swift; sourceTree = "<group>"; };
+		2B45520C215B1B6400E0926B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B455211215B1B6400E0926B /* DominoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B455215215B1B6400E0926B /* DominoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoUITests.swift; sourceTree = "<group>"; };
+		2B455217215B1B6400E0926B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BC06CDA215B15A900B0F301 /* Frameworks */ = {
+		2B4551ED215B1B6300E0926B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BC06CF4215B15AB00B0F301 /* Frameworks */ = {
+		2B455203215B1B6400E0926B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BC06CFF215B15AB00B0F301 /* Frameworks */ = {
+		2B45520E215B1B6400E0926B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,57 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BC06CD4215B15A900B0F301 = {
+		2B4551E7215B1B6300E0926B = {
 			isa = PBXGroup;
 			children = (
-				2BC06CDF215B15A900B0F301 /* Domino */,
-				2BC06CFA215B15AB00B0F301 /* DominoTests */,
-				2BC06D05215B15AB00B0F301 /* DominoUITests */,
-				2BC06CDE215B15A900B0F301 /* Products */,
+				2B4551F2215B1B6300E0926B /* Domino */,
+				2B455209215B1B6400E0926B /* DominoTests */,
+				2B455214215B1B6400E0926B /* DominoUITests */,
+				2B4551F1215B1B6300E0926B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2BC06CDE215B15A900B0F301 /* Products */ = {
+		2B4551F1215B1B6300E0926B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BC06CDD215B15A900B0F301 /* Domino.app */,
-				2BC06CF7215B15AB00B0F301 /* DominoTests.xctest */,
-				2BC06D02215B15AB00B0F301 /* DominoUITests.xctest */,
+				2B4551F0215B1B6300E0926B /* Domino.app */,
+				2B455206215B1B6400E0926B /* DominoTests.xctest */,
+				2B455211215B1B6400E0926B /* DominoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BC06CDF215B15A900B0F301 /* Domino */ = {
+		2B4551F2215B1B6300E0926B /* Domino */ = {
 			isa = PBXGroup;
 			children = (
-				2BC06CE0215B15A900B0F301 /* AppDelegate.h */,
-				2BC06CE1215B15A900B0F301 /* AppDelegate.m */,
-				2BC06CE3215B15A900B0F301 /* art.scnassets */,
-				2BC06CE5215B15A900B0F301 /* ViewController.h */,
-				2BC06CE6215B15A900B0F301 /* ViewController.m */,
-				2BC06CE8215B15A900B0F301 /* Main.storyboard */,
-				2BC06CEB215B15AB00B0F301 /* Assets.xcassets */,
-				2BC06CED215B15AB00B0F301 /* LaunchScreen.storyboard */,
-				2BC06CF0215B15AB00B0F301 /* Info.plist */,
-				2BC06CF1215B15AB00B0F301 /* main.m */,
+				2B4551F3215B1B6300E0926B /* AppDelegate.swift */,
+				2B4551F5215B1B6300E0926B /* art.scnassets */,
+				2B4551F7215B1B6300E0926B /* ViewController.swift */,
+				2B4551F9215B1B6300E0926B /* Main.storyboard */,
+				2B4551FC215B1B6400E0926B /* Assets.xcassets */,
+				2B4551FE215B1B6400E0926B /* LaunchScreen.storyboard */,
+				2B455201215B1B6400E0926B /* Info.plist */,
 			);
 			path = Domino;
 			sourceTree = "<group>";
 		};
-		2BC06CFA215B15AB00B0F301 /* DominoTests */ = {
+		2B455209215B1B6400E0926B /* DominoTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BC06CFB215B15AB00B0F301 /* DominoTests.m */,
-				2BC06CFD215B15AB00B0F301 /* Info.plist */,
+				2B45520A215B1B6400E0926B /* DominoTests.swift */,
+				2B45520C215B1B6400E0926B /* Info.plist */,
 			);
 			path = DominoTests;
 			sourceTree = "<group>";
 		};
-		2BC06D05215B15AB00B0F301 /* DominoUITests */ = {
+		2B455214215B1B6400E0926B /* DominoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2BC06D06215B15AB00B0F301 /* DominoUITests.m */,
-				2BC06D08215B15AB00B0F301 /* Info.plist */,
+				2B455215215B1B6400E0926B /* DominoUITests.swift */,
+				2B455217215B1B6400E0926B /* Info.plist */,
 			);
 			path = DominoUITests;
 			sourceTree = "<group>";
@@ -138,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BC06CDC215B15A900B0F301 /* Domino */ = {
+		2B4551EF215B1B6300E0926B /* Domino */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BC06D0B215B15AB00B0F301 /* Build configuration list for PBXNativeTarget "Domino" */;
+			buildConfigurationList = 2B45521A215B1B6400E0926B /* Build configuration list for PBXNativeTarget "Domino" */;
 			buildPhases = (
-				2BC06CD9215B15A900B0F301 /* Sources */,
-				2BC06CDA215B15A900B0F301 /* Frameworks */,
-				2BC06CDB215B15A900B0F301 /* Resources */,
+				2B4551EC215B1B6300E0926B /* Sources */,
+				2B4551ED215B1B6300E0926B /* Frameworks */,
+				2B4551EE215B1B6300E0926B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,68 +145,69 @@
 			);
 			name = Domino;
 			productName = Domino;
-			productReference = 2BC06CDD215B15A900B0F301 /* Domino.app */;
+			productReference = 2B4551F0215B1B6300E0926B /* Domino.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2BC06CF6215B15AB00B0F301 /* DominoTests */ = {
+		2B455205215B1B6400E0926B /* DominoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BC06D0E215B15AB00B0F301 /* Build configuration list for PBXNativeTarget "DominoTests" */;
+			buildConfigurationList = 2B45521D215B1B6400E0926B /* Build configuration list for PBXNativeTarget "DominoTests" */;
 			buildPhases = (
-				2BC06CF3215B15AB00B0F301 /* Sources */,
-				2BC06CF4215B15AB00B0F301 /* Frameworks */,
-				2BC06CF5215B15AB00B0F301 /* Resources */,
+				2B455202215B1B6400E0926B /* Sources */,
+				2B455203215B1B6400E0926B /* Frameworks */,
+				2B455204215B1B6400E0926B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2BC06CF9215B15AB00B0F301 /* PBXTargetDependency */,
+				2B455208215B1B6400E0926B /* PBXTargetDependency */,
 			);
 			name = DominoTests;
 			productName = DominoTests;
-			productReference = 2BC06CF7215B15AB00B0F301 /* DominoTests.xctest */;
+			productReference = 2B455206215B1B6400E0926B /* DominoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2BC06D01215B15AB00B0F301 /* DominoUITests */ = {
+		2B455210215B1B6400E0926B /* DominoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BC06D11215B15AB00B0F301 /* Build configuration list for PBXNativeTarget "DominoUITests" */;
+			buildConfigurationList = 2B455220215B1B6400E0926B /* Build configuration list for PBXNativeTarget "DominoUITests" */;
 			buildPhases = (
-				2BC06CFE215B15AB00B0F301 /* Sources */,
-				2BC06CFF215B15AB00B0F301 /* Frameworks */,
-				2BC06D00215B15AB00B0F301 /* Resources */,
+				2B45520D215B1B6400E0926B /* Sources */,
+				2B45520E215B1B6400E0926B /* Frameworks */,
+				2B45520F215B1B6400E0926B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2BC06D04215B15AB00B0F301 /* PBXTargetDependency */,
+				2B455213215B1B6400E0926B /* PBXTargetDependency */,
 			);
 			name = DominoUITests;
 			productName = DominoUITests;
-			productReference = 2BC06D02215B15AB00B0F301 /* DominoUITests.xctest */;
+			productReference = 2B455211215B1B6400E0926B /* DominoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2BC06CD5215B15A900B0F301 /* Project object */ = {
+		2B4551E8215B1B6300E0926B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = lyons;
 				TargetAttributes = {
-					2BC06CDC215B15A900B0F301 = {
+					2B4551EF215B1B6300E0926B = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					2BC06CF6215B15AB00B0F301 = {
+					2B455205215B1B6400E0926B = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 2BC06CDC215B15A900B0F301;
+						TestTargetID = 2B4551EF215B1B6300E0926B;
 					};
-					2BC06D01215B15AB00B0F301 = {
+					2B455210215B1B6400E0926B = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 2BC06CDC215B15A900B0F301;
+						TestTargetID = 2B4551EF215B1B6300E0926B;
 					};
 				};
 			};
-			buildConfigurationList = 2BC06CD8215B15A900B0F301 /* Build configuration list for PBXProject "Domino" */;
+			buildConfigurationList = 2B4551EB215B1B6300E0926B /* Build configuration list for PBXProject "Domino" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,38 +215,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 2BC06CD4215B15A900B0F301;
-			productRefGroup = 2BC06CDE215B15A900B0F301 /* Products */;
+			mainGroup = 2B4551E7215B1B6300E0926B;
+			productRefGroup = 2B4551F1215B1B6300E0926B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BC06CDC215B15A900B0F301 /* Domino */,
-				2BC06CF6215B15AB00B0F301 /* DominoTests */,
-				2BC06D01215B15AB00B0F301 /* DominoUITests */,
+				2B4551EF215B1B6300E0926B /* Domino */,
+				2B455205215B1B6400E0926B /* DominoTests */,
+				2B455210215B1B6400E0926B /* DominoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BC06CDB215B15A900B0F301 /* Resources */ = {
+		2B4551EE215B1B6300E0926B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC06CE4215B15A900B0F301 /* art.scnassets in Resources */,
-				2BC06CEF215B15AB00B0F301 /* LaunchScreen.storyboard in Resources */,
-				2BC06CEC215B15AB00B0F301 /* Assets.xcassets in Resources */,
-				2BC06CEA215B15A900B0F301 /* Main.storyboard in Resources */,
+				2B4551F6215B1B6300E0926B /* art.scnassets in Resources */,
+				2B455200215B1B6400E0926B /* LaunchScreen.storyboard in Resources */,
+				2B4551FD215B1B6400E0926B /* Assets.xcassets in Resources */,
+				2B4551FB215B1B6300E0926B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BC06CF5215B15AB00B0F301 /* Resources */ = {
+		2B455204215B1B6400E0926B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BC06D00215B15AB00B0F301 /* Resources */ = {
+		2B45520F215B1B6400E0926B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,60 +256,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BC06CD9215B15A900B0F301 /* Sources */ = {
+		2B4551EC215B1B6300E0926B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC06CE7215B15A900B0F301 /* ViewController.m in Sources */,
-				2BC06CF2215B15AB00B0F301 /* main.m in Sources */,
-				2BC06CE2215B15A900B0F301 /* AppDelegate.m in Sources */,
+				2B4551F8215B1B6300E0926B /* ViewController.swift in Sources */,
+				2B4551F4215B1B6300E0926B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BC06CF3215B15AB00B0F301 /* Sources */ = {
+		2B455202215B1B6400E0926B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC06CFC215B15AB00B0F301 /* DominoTests.m in Sources */,
+				2B45520B215B1B6400E0926B /* DominoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BC06CFE215B15AB00B0F301 /* Sources */ = {
+		2B45520D215B1B6400E0926B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC06D07215B15AB00B0F301 /* DominoUITests.m in Sources */,
+				2B455216215B1B6400E0926B /* DominoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BC06CF9215B15AB00B0F301 /* PBXTargetDependency */ = {
+		2B455208215B1B6400E0926B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BC06CDC215B15A900B0F301 /* Domino */;
-			targetProxy = 2BC06CF8215B15AB00B0F301 /* PBXContainerItemProxy */;
+			target = 2B4551EF215B1B6300E0926B /* Domino */;
+			targetProxy = 2B455207215B1B6400E0926B /* PBXContainerItemProxy */;
 		};
-		2BC06D04215B15AB00B0F301 /* PBXTargetDependency */ = {
+		2B455213215B1B6400E0926B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BC06CDC215B15A900B0F301 /* Domino */;
-			targetProxy = 2BC06D03215B15AB00B0F301 /* PBXContainerItemProxy */;
+			target = 2B4551EF215B1B6300E0926B /* Domino */;
+			targetProxy = 2B455212215B1B6400E0926B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2BC06CE8215B15A900B0F301 /* Main.storyboard */ = {
+		2B4551F9215B1B6300E0926B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BC06CE9215B15A900B0F301 /* Base */,
+				2B4551FA215B1B6300E0926B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2BC06CED215B15AB00B0F301 /* LaunchScreen.storyboard */ = {
+		2B4551FE215B1B6400E0926B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BC06CEE215B15AB00B0F301 /* Base */,
+				2B4551FF215B1B6400E0926B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2BC06D09215B15AB00B0F301 /* Debug */ = {
+		2B455218215B1B6400E0926B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,10 +372,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2BC06D0A215B15AB00B0F301 /* Release */ = {
+		2B455219215B1B6400E0926B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,11 +426,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2BC06D0C215B15AB00B0F301 /* Debug */ = {
+		2B45521B215B1B6400E0926B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -448,11 +445,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.Domino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2BC06D0D215B15AB00B0F301 /* Release */ = {
+		2B45521C215B1B6400E0926B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,15 +463,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.Domino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		2BC06D0F215B15AB00B0F301 /* Debug */ = {
+		2B45521E215B1B6400E0926B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79MZ7A623K;
 				INFOPLIST_FILE = DominoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,16 +483,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.DominoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domino.app/Domino";
 			};
 			name = Debug;
 		};
-		2BC06D10215B15AB00B0F301 /* Release */ = {
+		2B45521F215B1B6400E0926B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79MZ7A623K;
 				INFOPLIST_FILE = DominoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -500,15 +504,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.DominoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domino.app/Domino";
 			};
 			name = Release;
 		};
-		2BC06D12215B15AB00B0F301 /* Debug */ = {
+		2B455221215B1B6400E0926B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79MZ7A623K;
 				INFOPLIST_FILE = DominoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,15 +524,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.DominoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Domino;
 			};
 			name = Debug;
 		};
-		2BC06D13215B15AB00B0F301 /* Release */ = {
+		2B455222215B1B6400E0926B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79MZ7A623K;
 				INFOPLIST_FILE = DominoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,6 +544,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.DominoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Domino;
 			};
@@ -542,43 +553,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BC06CD8215B15A900B0F301 /* Build configuration list for PBXProject "Domino" */ = {
+		2B4551EB215B1B6300E0926B /* Build configuration list for PBXProject "Domino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BC06D09215B15AB00B0F301 /* Debug */,
-				2BC06D0A215B15AB00B0F301 /* Release */,
+				2B455218215B1B6400E0926B /* Debug */,
+				2B455219215B1B6400E0926B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BC06D0B215B15AB00B0F301 /* Build configuration list for PBXNativeTarget "Domino" */ = {
+		2B45521A215B1B6400E0926B /* Build configuration list for PBXNativeTarget "Domino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BC06D0C215B15AB00B0F301 /* Debug */,
-				2BC06D0D215B15AB00B0F301 /* Release */,
+				2B45521B215B1B6400E0926B /* Debug */,
+				2B45521C215B1B6400E0926B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BC06D0E215B15AB00B0F301 /* Build configuration list for PBXNativeTarget "DominoTests" */ = {
+		2B45521D215B1B6400E0926B /* Build configuration list for PBXNativeTarget "DominoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BC06D0F215B15AB00B0F301 /* Debug */,
-				2BC06D10215B15AB00B0F301 /* Release */,
+				2B45521E215B1B6400E0926B /* Debug */,
+				2B45521F215B1B6400E0926B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BC06D11215B15AB00B0F301 /* Build configuration list for PBXNativeTarget "DominoUITests" */ = {
+		2B455220215B1B6400E0926B /* Build configuration list for PBXNativeTarget "DominoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BC06D12215B15AB00B0F301 /* Debug */,
-				2BC06D13215B15AB00B0F301 /* Release */,
+				2B455221215B1B6400E0926B /* Debug */,
+				2B455222215B1B6400E0926B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BC06CD5215B15A900B0F301 /* Project object */;
+	rootObject = 2B4551E8215B1B6300E0926B /* Project object */;
 }
