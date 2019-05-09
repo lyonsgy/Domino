@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vaf-op-1z6">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -9,33 +9,105 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="2D4-nJ-2Tp">
+            <objects>
+                <navigationController id="Vaf-op-1z6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="X7u-eU-NmB">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="Kaj-IZ-U0Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kvj-tL-Pnk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1845" y="-326"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
                 <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Domino" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQr-cg-OQD">
+                                <rect key="frame" x="140" y="188" width="95" height="30"/>
+                                <state key="normal" title="ARSCN Demo"/>
+                                <connections>
+                                    <segue destination="1rm-uS-Fsu" kind="push" id="LbC-yx-QDR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSl-em-YYA">
+                                <rect key="frame" x="162" y="318" width="51" height="30"/>
+                                <state key="normal" title="ARSCN"/>
+                                <connections>
+                                    <segue destination="gcC-qm-HKS" kind="push" id="TQf-ki-pHq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xQr-cg-OQD" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="100" id="mdc-bL-WEo"/>
+                            <constraint firstItem="eSl-em-YYA" firstAttribute="top" secondItem="xQr-cg-OQD" secondAttribute="bottom" constant="100" id="uuN-kn-yeO"/>
+                            <constraint firstItem="xQr-cg-OQD" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="xVb-Mi-qtZ"/>
+                            <constraint firstItem="eSl-em-YYA" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="yC2-KQ-uEx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UMU-yA-og3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-978" y="-286"/>
+        </scene>
+        <!--Demo View Controller-->
+        <scene sceneID="6KU-Hz-quj">
+            <objects>
+                <viewController id="1rm-uS-Fsu" customClass="ARSCNDemoViewController" customModule="Domino" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rjl-sz-XSW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2h-XD-MMd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="s2h-XD-MMd" firstAttribute="top" secondItem="Rjl-sz-XSW" secondAttribute="top" id="3Rh-Ow-ACE"/>
+                            <constraint firstItem="s2h-XD-MMd" firstAttribute="leading" secondItem="IKt-9d-4O2" secondAttribute="leading" id="Aqc-G5-mg1"/>
+                            <constraint firstAttribute="bottom" secondItem="s2h-XD-MMd" secondAttribute="bottom" id="KMf-eY-pWO"/>
+                            <constraint firstItem="s2h-XD-MMd" firstAttribute="trailing" secondItem="IKt-9d-4O2" secondAttribute="trailing" id="bNn-63-5yY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <viewLayoutGuide key="safeArea" id="IKt-9d-4O2"/>
                     </view>
+                    <navigationItem key="navigationItem" id="egw-gE-8Qq"/>
                     <connections>
-                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="sceneView" destination="s2h-XD-MMd" id="lOx-oU-INl"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7j-L1-uri" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-92" y="-662"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mui-Rp-VOc">
+            <objects>
+                <viewController id="gcC-qm-HKS" customClass="ARSCNViewController" customModule="Domino" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ECr-WS-zVF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rCe-W3-Med"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fuc-ML-Rpp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUb-dV-rff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="174"/>
         </scene>
     </scenes>
 </document>
