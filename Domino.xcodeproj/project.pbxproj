@@ -15,6 +15,8 @@
 		2B455200215B1B6400E0926B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4551FE215B1B6400E0926B /* LaunchScreen.storyboard */; };
 		2B45520B215B1B6400E0926B /* DominoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B45520A215B1B6400E0926B /* DominoTests.swift */; };
 		2B455216215B1B6400E0926B /* DominoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B455215215B1B6400E0926B /* DominoUITests.swift */; };
+		68F587D6D1E5EAE07774BE3C /* libPods-DominoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F234238FE386C1F24111FAF /* libPods-DominoTests.a */; };
+		7FC9C35DF962AE9C3E654F8E /* libPods-Domino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4215834237915D007D02A66B /* libPods-Domino.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,12 @@
 		2B455211215B1B6400E0926B /* DominoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B455215215B1B6400E0926B /* DominoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoUITests.swift; sourceTree = "<group>"; };
 		2B455217215B1B6400E0926B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F234238FE386C1F24111FAF /* libPods-DominoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DominoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4215834237915D007D02A66B /* libPods-Domino.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Domino.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CE799A1FE3D83A4790D7F /* Pods-DominoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DominoTests/Pods-DominoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82BC42047EF56EA6D9C3E427 /* Pods-DominoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DominoTests/Pods-DominoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D35B76EBAC765C331C4BFB80 /* Pods-Domino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Domino/Pods-Domino.release.xcconfig"; sourceTree = "<group>"; };
+		F3633E43CEFC50F610BF97AD /* Pods-Domino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Domino/Pods-Domino.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC9C35DF962AE9C3E654F8E /* libPods-Domino.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F587D6D1E5EAE07774BE3C /* libPods-DominoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +93,8 @@
 				2B455209215B1B6400E0926B /* DominoTests */,
 				2B455214215B1B6400E0926B /* DominoUITests */,
 				2B4551F1215B1B6300E0926B /* Products */,
+				E509FA3AD3896703B301F0F7 /* Pods */,
+				75242C10C9E2935BA466E73A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				2B4551F3215B1B6300E0926B /* AppDelegate.swift */,
-				2B4551F5215B1B6300E0926B /* art.scnassets */,
 				2B4551F7215B1B6300E0926B /* ViewController.swift */,
-				2B4551F9215B1B6300E0926B /* Main.storyboard */,
+				2B4551F5215B1B6300E0926B /* art.scnassets */,
 				2B4551FC215B1B6400E0926B /* Assets.xcassets */,
+				2B4551F9215B1B6300E0926B /* Main.storyboard */,
 				2B4551FE215B1B6400E0926B /* LaunchScreen.storyboard */,
 				2B455201215B1B6400E0926B /* Info.plist */,
 			);
@@ -128,6 +140,26 @@
 			path = DominoUITests;
 			sourceTree = "<group>";
 		};
+		75242C10C9E2935BA466E73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4215834237915D007D02A66B /* libPods-Domino.a */,
+				2F234238FE386C1F24111FAF /* libPods-DominoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E509FA3AD3896703B301F0F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3633E43CEFC50F610BF97AD /* Pods-Domino.debug.xcconfig */,
+				D35B76EBAC765C331C4BFB80 /* Pods-Domino.release.xcconfig */,
+				455CE799A1FE3D83A4790D7F /* Pods-DominoTests.debug.xcconfig */,
+				82BC42047EF56EA6D9C3E427 /* Pods-DominoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B45521A215B1B6400E0926B /* Build configuration list for PBXNativeTarget "Domino" */;
 			buildPhases = (
+				248DD0D5AA054F5E66964D82 /* [CP] Check Pods Manifest.lock */,
 				2B4551EC215B1B6300E0926B /* Sources */,
 				2B4551ED215B1B6300E0926B /* Frameworks */,
 				2B4551EE215B1B6300E0926B /* Resources */,
@@ -152,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B45521D215B1B6400E0926B /* Build configuration list for PBXNativeTarget "DominoTests" */;
 			buildPhases = (
+				3DF163884AA9C81C5EA09D79 /* [CP] Check Pods Manifest.lock */,
 				2B455202215B1B6400E0926B /* Sources */,
 				2B455203215B1B6400E0926B /* Frameworks */,
 				2B455204215B1B6400E0926B /* Resources */,
@@ -196,6 +230,7 @@
 				TargetAttributes = {
 					2B4551EF215B1B6300E0926B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					2B455205215B1B6400E0926B = {
 						CreatedOnToolsVersion = 10.0;
@@ -254,6 +289,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		248DD0D5AA054F5E66964D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Domino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF163884AA9C81C5EA09D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DominoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B4551EC215B1B6300E0926B /* Sources */ = {
@@ -434,10 +508,14 @@
 		};
 		2B45521B215B1B6400E0926B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3633E43CEFC50F610BF97AD /* Pods-Domino.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79MZ7A623K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Domino/PrefixHeader.swift";
 				INFOPLIST_FILE = Domino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,6 +523,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.Domino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,10 +532,14 @@
 		};
 		2B45521C215B1B6400E0926B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35B76EBAC765C331C4BFB80 /* Pods-Domino.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79MZ7A623K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Domino/PrefixHeader.swift";
 				INFOPLIST_FILE = Domino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.Domino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +555,7 @@
 		};
 		2B45521E215B1B6400E0926B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455CE799A1FE3D83A4790D7F /* Pods-DominoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +577,7 @@
 		};
 		2B45521F215B1B6400E0926B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BC42047EF56EA6D9C3E427 /* Pods-DominoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
